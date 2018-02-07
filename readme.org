@@ -1,0 +1,27 @@
+* Minimal Test Runner
+
+No dependencies.  
+
+Node 6+
+
+* Example
+
+#+begin_src javascript
+const test = require('./test');
+
+text([
+  ['Test Name', () => {
+    assert(true);
+  }]
+], 'Test Collection Name');
+#+end_src
+
+Output:
+
+#+begin_src
+Test Collection Name :: running 1 tests
+ [✓] Test Name
+
+ 1/1 - 0 deferred
+#+end_src
+
