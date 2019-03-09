@@ -9,7 +9,7 @@ Node 6+
 #+begin_src javascript
 const test = require('./test');
 
-text([
+test([
   ['Test Name', () => {
     assert(true);
   }]
