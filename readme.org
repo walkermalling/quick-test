@@ -1,12 +1,13 @@
 * Minimal Test Runner
 
-No dependencies.  
+No dependencies.
 
 Node 6+
 
 * Example
 
 #+begin_src javascript
+const assert = require('assert');
 const test = require('./test');
 
 test([
@@ -24,4 +25,3 @@ Test Collection Name :: running 1 tests
 
  1/1 - 0 deferred
 #+end_src
-
